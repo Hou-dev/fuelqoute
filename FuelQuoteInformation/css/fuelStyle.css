@@ -1,0 +1,104 @@
+body{
+  background: #F4F4F4;
+  font-family: Tahoma,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.containerForm{
+  width: 30%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.containerFormHistory{
+  width: 50%;
+  margin:auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.headerContainer{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#MainHeader{
+  font-size: 18px;
+  background-color: #ad181f;
+  color: white;
+}
+
+.navbar{
+  background-color: #333;
+  color: white;
+}
+
+.navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+.navbar li{
+  display: inline;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#FuelQuoteFormDiv{
+  text-align: center;
+}
+
+.FuelQuoteForm{
+  border-style:solid;
+  border-width: thin;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#Table{
+  border-style: solid;
+  border-width: thin;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#Table th,td{
+  border: 1px solid black;
+}
+
+th,td{
+  padding: 10px;
+  text-align: left;
+}
+
+th{
+  background-color: #ad181f;
+  color: white;
+}
+
+.mainFooter{
+  background-color: #ad181f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
